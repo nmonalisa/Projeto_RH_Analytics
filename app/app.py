@@ -1,4 +1,5 @@
 #carregando as bibliotecas
+from turtle import width
 from   click import style
 from numpy import empty
 import pandas as pd
@@ -13,6 +14,7 @@ import matplotlib.pyplot as plt
 import math
 import time
 from   sklearn.preprocessing import MinMaxScaler
+from   PIL import Image
 
 # Variáveis de configuração
 var_model = "dowloads\model.sav"
@@ -43,6 +45,7 @@ dataset.drop("turnover", axis="columns", inplace=True)
 
 # Criando os componentes do app
 st.sidebar.subheader("Dados da pessoa colaboradora:")
+st.image(Image.open('..\images\image1.png'), width=120)
 st.markdown('<p style="font-family:sans-serif; color:#187BCD; font-size: 42px;">People Analytics</p>', unsafe_allow_html=True)
 st.markdown("Solução construída para obter dados de pessoas colaboradoras e/ou prever a saída delas da empresa.")
 st.markdown("Para obter os dados, busque pelo 'employee_id' da pessoa. \
@@ -117,5 +120,3 @@ if btn_predict:
     show_inputed_data(data)
     show_result_container(predict, probabability)
     
-
-   
