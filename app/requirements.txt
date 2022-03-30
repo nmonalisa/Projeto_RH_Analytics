@@ -3,5 +3,4 @@ minio
 joblib
 streamlit-aggrid
 pillow
-time
 sklearn
