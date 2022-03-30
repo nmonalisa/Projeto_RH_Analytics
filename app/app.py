@@ -1,5 +1,4 @@
 #carregando as bibliotecas
-from   turtle import width
 from   click import style
 from   numpy import empty
 import pandas as pd
@@ -8,10 +7,7 @@ from   st_aggrid import AgGrid, GridOptionsBuilder
 from   st_aggrid.shared import GridUpdateMode
 from   minio import Minio
 import joblib
-import pickle
-import joblib
 import matplotlib.pyplot as plt
-import math
 import time
 from   sklearn.preprocessing import MinMaxScaler
 from   PIL import Image
