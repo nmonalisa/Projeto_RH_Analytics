@@ -1,3 +1,5 @@
 streamlit
 minio
 joblib
+st_aggrid
+PIL
