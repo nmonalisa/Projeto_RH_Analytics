@@ -1,4 +1,4 @@
 streamlit
-turtle
 minio
 joblib
+libtk8.6
