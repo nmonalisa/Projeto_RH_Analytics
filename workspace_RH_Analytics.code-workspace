@@ -2,6 +2,12 @@
     "folders": [
         {
             "path": "."
+        },
+        {
+            "path": "..\\..\\Vale\\Projetos\\EFC_Vias Permanentes"
         }
-    ]
+    ],
+    "settings": {
+        "esbonio.sphinx.confDir": ""
+    }
 }

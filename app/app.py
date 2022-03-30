@@ -1,7 +1,7 @@
 #carregando as bibliotecas
-from turtle import width
+from   turtle import width
 from   click import style
-from numpy import empty
+from   numpy import empty
 import pandas as pd
 import streamlit as st
 from   st_aggrid import AgGrid, GridOptionsBuilder
