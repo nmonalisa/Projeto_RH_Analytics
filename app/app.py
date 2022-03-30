@@ -7,7 +7,6 @@ from   st_aggrid import AgGrid, GridOptionsBuilder
 from   st_aggrid.shared import GridUpdateMode
 from   minio import Minio
 import joblib
-import matplotlib.pyplot as plt
 import time
 from   sklearn.preprocessing import MinMaxScaler
 from   PIL import Image
