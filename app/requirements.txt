@@ -2,4 +2,4 @@ streamlit
 minio
 joblib
 streamlit-aggrid
-PIL
+pillow
