@@ -1,5 +1,5 @@
 streamlit
 minio
 joblib
-st_aggrid
+streamlit-aggrid
 PIL
